@@ -1,0 +1,9 @@
+server:
+  port: 40001
+spring:
+  application:
+    name: yuan-springcloud-config-client
+config:
+  refresh:
+    interval:
+      duration: 2000

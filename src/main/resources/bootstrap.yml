@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: main
+      uri: http://127.0.0.1:40000
+      name: config
+      profile: test
