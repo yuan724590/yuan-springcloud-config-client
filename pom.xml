@@ -2,16 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>yuan-springcloud-config-client</groupId>
-    <artifactId>yuan-springcloud</artifactId>
+    <groupId>yuan-springcloud</groupId>
+    <artifactId>yuan-springcloud-config-client</artifactId>
     <version>1-sc</version>
-    <name>yuan-springcloud</name>
+    <name>yuan-springcloud-config-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <!--<spring-cloud.version>2020.0.0-M6</spring-cloud.version>-->
-        <spring-cloud.version>2.0.0.RELEASE</spring-cloud.version>
+        <spring.cloud.version>2.0.0.RELEASE</spring.cloud.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
@@ -19,13 +18,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring-cloud.version}</version>
+            <version>${spring.cloud.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-            <version>${spring-cloud.version}</version>
+            <version>${spring.cloud.version}</version>
         </dependency>
 
         <dependency>
@@ -37,7 +36,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>${spring-cloud.version}</version>
+            <version>${spring.cloud.version}</version>
         </dependency>
     </dependencies>
 
