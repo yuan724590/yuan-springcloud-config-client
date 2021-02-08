@@ -33,7 +33,8 @@ public class AutoRefreshConfiguration implements SchedulingConfigurer {
         log.info("refresh duration {}, start refresh config", intervalDuration);
         scheduledTaskRegistrar.addFixedDelayTask(new IntervalTask(new Runnable() {
             @Override
-            public void run() { refreshEndpoint.refresh();
+            public void run() {
+                refreshEndpoint.refresh();
             }
         }, intervalDuration, intervalDuration));
         log.info("refresh duration success", intervalDuration);

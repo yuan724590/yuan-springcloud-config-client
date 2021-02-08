@@ -10,7 +10,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring.cloud.version>2.0.0.RELEASE</spring.cloud.version>
+        <spring.version>2.0.0.RELEASE</spring.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
@@ -18,13 +18,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring.cloud.version}</version>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-            <version>${spring.cloud.version}</version>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>${spring.cloud.version}</version>
+            <version>${spring.version}</version>
         </dependency>
     </dependencies>
 
