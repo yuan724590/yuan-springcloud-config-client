@@ -1,12 +1,12 @@
 spring:
   cloud:
     config:
-#通过注册中心(eureka)来实现高可用
-#      discovery:
-#        #开启config服务发现支持
-#        enabled: true
-#        #config server端的spring.application.name值
-#        service-id: yuan-springcloud-config
+      #通过注册中心(eureka)来实现高可用
+      #      discovery:
+      #        #开启config服务发现支持
+      #        enabled: true
+      #        #config server端的spring.application.name值
+      #        service-id: yuan-springcloud-config
       label: main
       uri: http://127.0.0.1:40000
       name: config
